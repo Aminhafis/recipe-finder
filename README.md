@@ -3,16 +3,11 @@
 A cheerful, minimal app for discovering recipes by ingredient—built for humans, with help from AI!
 
 ---
-
-## Demo
-
-[![Watch the Demo](screenshots/demo.gif)](https://your-demo-video-link-if-any)
-
----
-
 ## Screenshots
 
 ![Search UI](screenshots/search-ui.png)
+![Searchsuggestion UI](screenshots/searchsuggestion-ui.png)
+![Searchresults UI](screenshots/searchresults-ui.png)
 ![Favorites Grid](screenshots/favorites-ui.png)
 
 ---
@@ -32,7 +27,7 @@ A cheerful, minimal app for discovering recipes by ingredient—built for humans
 ## Installation
 
 Clone the repo
-git clone https://github.com/your-username/recipe-finder.git
+git clone https://github.com/Aminhafis/recipe-finder.git
 cd recipe-finder
 
 Install dependencies
