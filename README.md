@@ -77,3 +77,17 @@ MIT
 - [TheMealDB API](https://www.themealdb.com/api.php)
 - TailwindCSS team
 - OpenAI for conversational learning and code review
+
+## Development Notes & Technical Reflection
+
+This application was developed to evaluate rapid frontend prototyping and third-party REST API integration with LLM assistance.
+
+### Key Considerations
+- **API Integration & Input Debouncing:** Addressed input race conditions against TheMealDB by introducing debounced queries during fast typing.
+- **State Persistence:** Synchronized shortlisted recipes with browser `localStorage` to retain user data across sessions.
+- **Debugging & Refactoring:** Required manual refactoring of asynchronous error handlers and empty state guards where API responses returned null ingredient fields.
+
+### Planned Improvements
+- Migration of the codebase to TypeScript for explicit API response contracts.
+- Client-side caching of recent queries to reduce redundant network requests.
+- Unit testing for search filter utilities using Jest.
